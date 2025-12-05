@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Simple Coffee Shop</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f5ebe0;
+      color: #4a3f35;
+    }
+    header {
+      background: #4a3f35;
+      color: white;
+      padding: 15px;
+      text-align: center;
+    }
+    .hero {
+      text-align: center;
+      padding: 40px 20px;
+    }
+    .hero h1 {
+      margin-bottom: 10px;
+    }
+    .menu {
+      padding: 20px;
+      max-width: 800px;
+      margin: auto;
+    }
+    .menu h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .menu-items {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 15px;
+    }
+    .item {
+      background: #fff;
+      padding: 15px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    footer {
+      text-align: center;
+      padding: 15px;
+      background: #4a3f35;
+      color: white;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Simple Coffee Shop</h1>
+  </header>
+
+  <section class="hero">
+    <h1>Welcome to Our Coffee Shop</h1>
+    <p>Your perfect cup of coffee awaits.</p>
+  </section>
+
+  <section class="menu">
+    <h2>Our Menu</h2>
+    <div class="menu-items">
+      <div class="item">
+        <h3>Espresso</h3>
+        <p>₹120</p>
+      </div>
+      <div class="item">
+        <h3>Cappuccino</h3>
+        <p>₹150</p>
+      </div>
+      <div class="item">
+        <h3>Latte</h3>
+        <p>₹170</p>
+      </div>
+      <div class="item">
+        <h3>Cold Coffee</h3>
+        <p>₹180</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Simple Coffee Shop</p>
+  </footer>
+
+</body>
+</html>
